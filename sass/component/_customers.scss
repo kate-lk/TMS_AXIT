@@ -1,0 +1,41 @@
+.customer {
+    @extend %center;
+    text-align: center;
+}
+
+.customers__wrapper {
+    padding-bottom: 64px;
+}
+
+.customer__review {
+    background: $color-review;
+    border-radius: 10px;
+    padding: 28px 23px;
+    width: 90%;
+    color: $color-text;
+}
+
+.triangle {
+    border: 20px solid transparent; 
+    border-top: 20px solid $color-review;
+    margin-right: 206px;
+}
+
+.customer__layout-2-column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 370px;
+}
+
+.customer__img {
+   width: 70px;
+   height: 70px;
+   margin-top: 15px;
+}
+
+.customer__content {
+    width: 75%;
+    text-align: left;
+    padding-left: 20px;
+}

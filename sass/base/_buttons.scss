@@ -1,0 +1,44 @@
+.button {
+  padding: 20px 91px;
+  @extend %font-add;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  color: $color-light;
+  cursor: pointer;
+  transition: all 0.3s;
+  &_bordered {
+    background: none;
+    border: 2px solid $color-light;
+    &:hover {
+      color: $color-primary;
+      border-color: $color-primary;
+    }
+    &:focus {
+      background: $color-active;
+      border-color: $color-active;
+      color: $color-light;
+    }
+  }
+  &_colored {
+    background: $color-primary;
+    border: 1px solid $color-primary;
+    &:hover {
+      background: $color-active;
+      border-color: $color-active;
+    }
+    &:focus {
+      background: $color-primary;
+      border-color: $color-active;
+    }
+  }
+}
+
+.template__button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+}

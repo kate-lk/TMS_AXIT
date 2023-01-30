@@ -1,0 +1,48 @@
+.pricing-options__wrapper {
+    padding-bottom: 50px;
+}
+
+.rate:hover {
+    box-shadow: (0px 4px 10px rgba(51, 51, 51, 0.2));
+}
+
+.rate__title {
+  background-color: $color-dark;
+  border: 2px solid $color-bg-middle;
+  padding: 15px 0;
+  text-align: center;
+
+  > h3 {
+    @include font($size: 2.4rem, $weight: 700, $height: 3.3rem);
+    @extend %font-add;
+    color: $color-light;
+  }
+}
+
+.rate__price {
+  background-color: $color-dark;
+  border: 2px solid $color-bg-middle;
+  padding: 15px 0;
+  text-align: center;
+  > p {
+    @include font($size: 3.6rem, $weight: 700, $height: 4.2rem);
+    @extend %font-prim;
+    color: $color-light;
+  }
+}
+
+.rate__add {
+  border: 2px solid $color-bg-middle;
+  background-color: $color-dark;
+  color: $color-text;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.rate__item {
+  border: 2px solid $color-bg-middle;
+  background-color: $color-light;
+  color: $color-text;
+  padding: 15px 0;
+  text-align: center;
+}

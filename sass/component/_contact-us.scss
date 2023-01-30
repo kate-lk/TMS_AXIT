@@ -1,0 +1,23 @@
+.contact-us__wrapper {
+    padding-bottom: 50px;
+}
+
+.contact-us__line {
+    border: none;
+    border-bottom: 1px solid $color-form;
+    padding: 20px 0;
+    outline: none;
+    @extend %font-add;
+    @include font($size: 1.4rem, $height: 1.9rem);
+    resize: none;
+    color: $color-text;
+    margin: 15px;
+}
+
+.contact-us__input {
+    width: 90%;
+}
+
+.contact-us__button {
+    margin-top: 50px;
+}

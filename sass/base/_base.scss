@@ -1,0 +1,23 @@
+html {
+    font-size: 10px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    @extend %font-prim;
+    @include font($size: 1.8rem, $height: 2.1rem);
+  }
+  
+  h1 {
+    @include font($size: 4.8rem, $weight: 500, $height: 5.6rem);
+  }
+  
+  h2 {
+    @include font($size: 3.6rem, $weight: 400, $height: 4.3rem);
+  }
+  
+  h3 {
+    @extend %font-add;
+    @include font($size: 2.4rem, $weight: 700, $height: 3.3rem);
+  }
+  

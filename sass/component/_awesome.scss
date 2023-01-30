@@ -1,0 +1,29 @@
+.section__content {
+  @extend %center;
+}
+
+.section__title {
+  margin: 110px 0px 55px;
+  text-transform: uppercase;
+  &_light {
+      color: $color-light;
+  }
+}
+
+.section__text {
+  margin: 0 0 42px;
+  color: $color-text;
+  
+  &_light {
+    color: $color-light;
+}
+}
+
+.tool {
+    @extend %center;
+    text-align: center;
+}
+
+.awesome__wrapper {
+    padding-bottom: 58px;
+}

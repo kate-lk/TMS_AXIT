@@ -1,0 +1,57 @@
+.template__wrapper {
+    padding-bottom: 185px;
+    padding-top: 215px;
+    display: flex;
+    align-items: center;
+}
+
+.template__title {
+    margin: 0 0 55px;
+    color: $color-light;
+  }
+
+  .line {
+    width: 200px;
+    border-top: 2px solid $color-light;
+    margin: 0 0 42px;
+    &_colored {
+        border-color: $color-primary;
+    }
+  }
+  
+  .template__text {
+    max-width: 270px;
+    margin: 0 0 42px;
+    color: $color-light;
+  }
+  
+.template__logo {
+    margin: 0 0 50px;
+}
+
+.template__form {
+    background-color: $color-light;
+    border-radius: 10px;
+    text-align: center; 
+    position: relative;
+}
+
+.template__form__title {
+    text-transform: uppercase;
+    > span {
+        color: $color-primary;
+    }
+    padding: 35px 0;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid $color-form;
+    width: 70%;
+    margin: 15px 50px;
+    padding: 20px 0;
+    outline: none;
+    @extend %font-add;
+    @include font($size: 1.4rem, $height: 1.9rem);
+    color: $color-text;
+}

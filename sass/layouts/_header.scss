@@ -1,0 +1,33 @@
+.header {
+  padding: 30px 0;
+}
+
+.wrapper-bg {
+  &_dark {
+    background-color: $color-dark;
+  }
+  &_img {
+     background-image: url(../assets/img/bg.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+  }
+  &_prim-light {
+    background-color: $color-prim-light;
+  }
+  &_light {
+    background-color: $color-bg-light;
+  }
+  &_img-small {
+    background-image: url(../assets/img/bg2.jpg);
+  }
+  &_middle {
+    background-color: $color-bg-middle;
+  }
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+

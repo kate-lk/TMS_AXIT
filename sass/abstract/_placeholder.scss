@@ -1,0 +1,19 @@
+%font-prim {
+    font-family: "Raleway", Verdana, sans-serif;
+  }
+  
+  %font-add {
+    font-family: "Open Sans", Verdana, sans-serif;
+  }
+  
+  %transition {
+    transition: all 0.3s ease-out;
+  }
+
+  %center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  

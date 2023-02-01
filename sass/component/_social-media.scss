@@ -30,8 +30,10 @@
 }
 
 .ico_active :focus {
+    
     fill: #AB4949;
 }
 .ico_active :hover {
+    @extend %transition;
     fill: #EC7979;
 }

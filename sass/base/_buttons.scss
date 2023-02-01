@@ -31,6 +31,7 @@
     &:focus {
       background: $color-primary;
       border-color: $color-active;
+      box-shadow: inset 0px 0px 10px #AB4949;
     }
   }
 }

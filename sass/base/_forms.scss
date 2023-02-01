@@ -1,0 +1,11 @@
+input {
+    border: none;
+    border-bottom: 1px solid $color-form;
+    width: 70%;
+    margin: 15px 50px;
+    padding: 20px 0;
+    outline: none;
+    @extend %font-add;
+    @include font($size: 1.4rem, $height: 1.9rem);
+    color: $color-text;
+}

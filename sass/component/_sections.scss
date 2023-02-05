@@ -1,44 +1,61 @@
 .section__content {
-    @extend %center;
-  }
-  
-  .section__title {
-    margin: 110px 0px 55px;
-    text-transform: uppercase;
-    &_light {
-        color: $color-light;
-    }
-  }
-  
-  .section__text {
-    margin: 0 0 42px;
-    color: $color-text;
-    
-    &_light {
-      color: $color-light;
-  }
-  }
-  
+  @extend %center;
+}
 
-  .wrapper-bg {
-    &_dark {
-      background-color: $color-dark;
-    }
-    &_img {
-       background-image: url(../assets/img/bg.jpg);
-       background-repeat: no-repeat;
-       background-size: cover;
-    }
-    &_prim-light {
-      background-color: $color-prim-light;
-    }
-    &_light {
-      background-color: $color-bg-light;
-    }
-    &_img-small {
-      background-image: url(../assets/img/bg2.jpg);
-    }
-    &_middle {
-      background-color: $color-bg-middle;
+.section__title {
+  margin: 110px 0px 55px;
+  text-transform: uppercase;
+  &_light {
+    color: $color-light;
+    @include media-mobile {
+      margin: 55px 0;
     }
   }
+  @include media-mobile {
+    margin: 55px 0px;
+  }
+}
+
+.section__text {
+  margin: 0 0 42px;
+  color: $color-text;
+  &_light {
+    color: $color-light;
+  }
+  @include media-mobile {
+    text-align: center;
+    max-width: 288px;
+  }
+}
+
+.line {
+  width: 200px;
+  border-top: 2px solid $color-light;
+  margin: 0 0 42px;
+  &_colored {
+    border-color: $color-primary;
+  }
+}
+
+.wrapper-bg {
+  &_dark {
+    background-color: $color-dark;
+  }
+  &_img {
+    background-image: url(../assets/img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  &_prim-light {
+    background-color: $color-prim-light;
+  }
+  &_light {
+    background-color: $color-bg-light;
+  }
+  &_img-small {
+    background-image: url(../assets/img/bg2.jpg);
+  }
+  &_middle {
+    background-color: $color-bg-middle;
+  }
+}

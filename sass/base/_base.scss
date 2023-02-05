@@ -6,18 +6,30 @@ html {
   body {
     @extend %font-prim;
     @include font($size: 1.8rem, $height: 2.1rem);
+    @include media-mobile {
+      @include font($size: 1.4rem, $weight: 400, $height: 1.6rem);
+    }
   }
   
   h1 {
     @include font($size: 4.8rem, $weight: 500, $height: 5.6rem);
+    @include media-mobile {
+      @include font($size: 3.6rem, $weight: 500, $height: 4.3rem);
+    }
   }
   
   h2 {
     @include font($size: 3.6rem, $weight: 400, $height: 4.3rem);
+    @include media-mobile {
+      @include font($size: 1.8rem, $weight: 400, $height: 2.1rem);
+    }
   }
   
   h3 {
     @extend %font-add;
     @include font($size: 2.4rem, $weight: 700, $height: 3.3rem);
+    @include media-mobile {
+      @include font($size: 1.8rem, $weight: 700, $height: 2.4rem);
+    }
   }
   

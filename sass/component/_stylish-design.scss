@@ -1,10 +1,14 @@
 .stylish-design__wrapper {
-    @extend %center;
-    padding: 50px 0;
-
+  @extend %center;
+  padding: 50px 0;
 }
 
-
 .stylish-design__text {
-margin-bottom: 73px;
+  margin-bottom: 73px;
+  @include media-mobile {
+    text-align: center;
+    max-width: 288px;
+    margin-bottom: 50px;
+    margin-top: -20px;
+  }
 }

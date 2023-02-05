@@ -1,6 +1,10 @@
 .transitioning-effect__wrapper {
-    padding-bottom: 51px;
-    padding-top: 98px;
+  padding-bottom: 51px;
+  padding-top: 98px;
+  @include media-mobile {
+    padding-top: 41px;
+    padding-bottom: 0;
+  }
 }
 
 .transitioning-effect-tab {
@@ -9,24 +13,48 @@
   border-right: 1px solid $color-border;
   border-left: 1px solid $color-border;
   border-bottom: 1px solid $color-border;
-  position:relative;
-  &:before,
-  :after {
+  position: relative;
+  &:before {
     content: "";
     position: absolute;
     bottom: 100%;
-    width: 553px;
+    width: 82.7%;
     border-top: 1px solid $color-border;
     margin-left: 103px;
+  }
+
+  @include media-mobile {
+    padding-left: 0;
+    text-align: center;
+    justify-content: center;
+    &:before {
+      width: 67.2%;
+      margin-left: 114px;
+    }
+  }
+}
+
+.transitioning-effect__img {
+  @include media-mobile {
+    display: none;
   }
 }
 
 .transitioning-effect__title {
   margin-bottom: 75px;
+  @include media-mobile {
+    margin: 30px 0;
+  }
 }
 
 .transitioning-effect__text {
   margin-bottom: 27px;
+}
+
+.transitioning-effect__button {
+  @include media-mobile {
+    margin-bottom: 30px;
+  }
 }
 
 .tabs {

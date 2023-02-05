@@ -1,46 +1,66 @@
 .template__wrapper {
-    padding-bottom: 185px;
-    padding-top: 215px;
-    display: flex;
-    align-items: center;
+  padding-bottom: 185px;
+  padding-top: 215px;
+  display: flex;
+  align-items: center;
+  @include media-mobile {
+    padding-top: 84px;
+    padding-bottom: 50px;
+  }
 }
 
 .template__title {
-    margin: 0 0 55px;
-    color: $color-light;
+  margin: 0 0 95px;
+  color: $color-light;
+  @include media-mobile {
+    margin: 0 0 45px;
   }
+}
 
-  .line {
-    width: 200px;
-    border-top: 2px solid $color-light;
-    margin: 0 0 42px;
-    &_colored {
-        border-color: $color-primary;
-    }
-  }
-  
-  .template__text {
-    max-width: 270px;
-    margin: 0 0 42px;
-    color: $color-light;
-  }
-  
+
+.template__text {
+  max-width: 270px;
+  margin: 0 0 42px;
+  color: $color-light;
+}
+
 .template__logo {
-    margin: 0 0 50px;
+  margin: 0 0 50px;
+  @include media-mobile {
+    display: none;
+  }
 }
 
 .template__form {
-    background-color: $color-light;
-    border-radius: 10px;
-    text-align: center; 
-    position: relative;
+  background-color: $color-light;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  @include media-mobile {
+    padding-bottom: 121px;
+  }
 }
 
 .template__form__title {
-    text-transform: uppercase;
-    > span {
-        color: $color-primary;
-    }
-    padding: 35px 0;
+  text-transform: uppercase;
+  > span {
+    color: $color-primary;
+  }
+  padding-top: 15px;
 }
 
+.template__content {
+  @include media-mobile {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 56px;
+  }
+}
+
+.template__layout-2-column {
+    @include media-mobile {
+        flex-direction: column;
+      }
+}

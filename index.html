@@ -14,6 +14,7 @@
     <header>
       <div class="wrapper-bg wrapper-bg_dark">
         <div class="wrapper header__wrapper">
+          
           <a href="#" class="logo">
             <img src="assets/png/logo.png" alt="logo" />
           </a>
@@ -26,13 +27,18 @@
               <li class="navigation__link">Contact</li>
             </ul>
           </nav>
+          <div class="header__logo-line">
+            <span class="hamburger">
+              <span class="hamburger__line"></span>
+            </span>
+          </div>
         </div>
       </div>
     </header>
     <section class="template">
       <div class="wrapper-bg wrapper-bg_img">
         <div class="wrapper template__wrapper">
-          <div class="layout-2-column">
+          <div class="layout-2-column template__layout-2-column ">
             <div class="template__content">
               <img
                 src="assets/png/logo.png"
@@ -220,10 +226,10 @@
             <p class="tab__text">tab 1</p>
           </div>
           <div class="tab">
-            <p class="tab__text">tab 1</p>
+            <p class="tab__text">tab 2</p>
           </div>
           <div class="tab">
-            <p class="tab__text">tab 1</p>
+            <p class="tab__text">tab 3</p>
           </div>
         </div>
 
@@ -242,9 +248,9 @@
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
               euismod bibendum laoreet.
             </p>
-            <button class="button button_colored">Download</button>
+            <button class="button button_colored transitioning-effect__button">Download</button>
           </div>
-          <img src="assets/img/Rectangle 111.jpg" alt="transitioning-effect" />
+          <img src="assets/img/Rectangle 111.jpg" alt="transitioning-effect" class="transitioning-effect__img"/>
         </div>
       </div>
     </section>
@@ -259,7 +265,7 @@
           </p>
         </div>
 
-        <div class="layout-3-column">
+        <div class="layout-3-column awesome__layout-3-column">
           <div class="tool">
             <div class="tool__icon">
               <img src="assets/svg/about_icon_1.svg" alt="icon" />
@@ -308,7 +314,7 @@
             </p>
           </div>
 
-          <div class="layout-3-column">
+          <div class="layout-3-column awesome__layout-3-column">
             <div class="rate">
               <div class="rate__title"><h3>Basic</h3></div>
               <div class="rate__price"><p>$10</p></div>
@@ -356,7 +362,7 @@
           </p>
         </div>
         <div class="layout-3-column">
-          <div class="customer">
+          <div class="customer customer-mobile">
             <div class="customer__review">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -398,7 +404,7 @@
               </div>
             </div>
           </div>
-          <div class="customer">
+          <div class="customer customer-mobile">
             <div class="customer__review">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -419,6 +425,12 @@
               </div>
             </div>
           </div>
+
+        </div>
+        <div class="customers__slider">
+          <div class="circle"></div>
+          <div class="circle circle_colored"></div>
+          <div class="circle"></div>
         </div>
       </div>
     </section>
@@ -447,8 +459,8 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
         </div>
-        <div class="layout-2-column">
-          <form action method="POST">
+        <div class="layout-2-column contact-us__layout-2-column">
+          <form class="contact-us__form" action method="POST">
             <input
               type="text"
               name="name"

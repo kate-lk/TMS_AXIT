@@ -1,21 +1,27 @@
 .pricing-options__wrapper {
-    padding-bottom: 50px;
+  padding-bottom: 50px;
 }
 
-.rate:hover {
+.rate {
+  &:hover {
     box-shadow: (0px 4px 10px rgba(51, 51, 51, 0.2));
+  }
+  @include media-mobile {
+    margin-bottom: 27px;
+  }
 }
 
 .rate__title {
   background-color: $color-dark;
   border: 2px solid $color-bg-middle;
-  padding: 15px 0;
+  padding: 5px 0;
   text-align: center;
 
   > h3 {
     @include font($size: 2.4rem, $weight: 700, $height: 3.3rem);
     @extend %font-add;
     color: $color-light;
+    margin: 10px;
   }
 }
 
@@ -28,6 +34,7 @@
     @include font($size: 3.6rem, $weight: 700, $height: 4.2rem);
     @extend %font-prim;
     color: $color-light;
+    margin: 20px;
   }
 }
 

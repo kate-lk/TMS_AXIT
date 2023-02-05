@@ -38,6 +38,9 @@
   @include media-mobile {
     padding-left: 0;
   }
+  @include media-tablet {
+    justify-content: center;
+  }
 }
 
 .social-media__text {
@@ -48,6 +51,10 @@
   @include media-mobile {
     width: 26px !important;
     height: 26px !important;
+  }
+  @include media-tablet {
+    width: 60px !important;
+    height: 60px !important;
   }
 }
 

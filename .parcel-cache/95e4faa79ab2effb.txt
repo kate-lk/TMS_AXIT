@@ -1,4 +1,4 @@
-4424
+4428
 56E:\TMS\AXIT\node_modules\caniuse-lite\data\regions\DZ.js133191466189152009 0
 18E:\TMS\AXIT\assets133191423120028748 1
 43E:\TMS\AXIT\node_modules\@parcel\graph\test133191466139302151 1
@@ -28,7 +28,7 @@
 49E:\TMS\AXIT\node_modules\abortcontroller-polyfill133191466135562006 1
 52E:\TMS\AXIT\node_modules\@parcel\transformer-raw\lib133191466128341985 1
 59E:\TMS\AXIT\node_modules\@parcel\graph\src\AdjacencyList.js133191466129791989 0
-16E:\TMS\AXIT\dist133200238789914976 1
+16E:\TMS\AXIT\dist133200659908818961 1
 49E:\TMS\AXIT\node_modules\dom-serializer\README.md133191466131971988 0
 44E:\TMS\AXIT\node_modules\dotenv\package.json133191466116371998 0
 75E:\TMS\AXIT\node_modules\@parcel\source-map\parcel_sourcemap_node\artifacts133191466173742040 1
@@ -44,7 +44,7 @@
 39E:\TMS\AXIT\node_modules\tslib\tslib.js133191466123831985 0
 80E:\TMS\AXIT\node_modules\@swc\helpers\src\_class_static_private_field_update.mjs133191466181811987 0
 27E:\TMS\AXIT\sass\style.scss133200103977283647 0
-22E:\TMS\AXIT\index.html133200236748326505 0
+22E:\TMS\AXIT\index.html133200285754413906 0
 43E:\TMS\AXIT\node_modules\yaml\types\omap.js133191466137751989 0
 33E:\TMS\AXIT\node_modules\error-ex133191466120482007 1
 16E:\TMS\AXIT\sass133193157601364459 1
@@ -106,7 +106,7 @@
 33E:\TMS\AXIT\sass\base\_icons.scss133193138484532555 0
 58E:\TMS\AXIT\node_modules\domelementtype\lib\index.d.ts.map133191466127032000 0
 44E:\TMS\AXIT\node_modules\yaml\parse-cst.d.ts133191466166702042 0
-41E:\TMS\AXIT\sass\component\_sections.scss133200218017679961 0
+41E:\TMS\AXIT\sass\component\_sections.scss133200283571850146 0
 84E:\TMS\AXIT\node_modules\lmdb\dependencies\lz4\lib\dll\example\fullbench-dll.vcxproj133191466183972011 0
 53E:\TMS\AXIT\node_modules\@parcel\logger\lib\Logger.js133191466146251983 0
 57E:\TMS\AXIT\node_modules\@parcel\packager-js\package.json133191466155451990 0
@@ -116,14 +116,14 @@
 42E:\TMS\AXIT\node_modules\tslib\SECURITY.md133191466128662008 0
 69E:\TMS\AXIT\node_modules\@parcel\transformer-postcss\lib\constants.js133191466133141989 0
 53E:\TMS\AXIT\node_modules\css-tree\lib\parser\index.js133191466170892000 0
-32E:\TMS\AXIT\sass\base\_base.scss133200216374926978 0
+32E:\TMS\AXIT\sass\base\_base.scss133200247831527655 0
 44E:\TMS\AXIT\node_modules\braces\CHANGELOG.md133191466117961994 0
 51E:\TMS\AXIT\node_modules\@swc\helpers\lib\_throw.js133191466172852028 0
 65E:\TMS\AXIT\node_modules\@parcel\utils\src\generateCertificate.js133191466155642048 0
 60E:\TMS\AXIT\node_modules\css-tree\lib\syntax\config\lexer.js133191466173722003 0
 52E:\TMS\AXIT\node_modules\utility-types\dist\index.js133191466121271996 0
 104E:\TMS\AXIT\node_modules\@parcel\node-resolver-core\test\fixture\packages\source-alias-glob\package.json133191466181882035 0
-43E:\TMS\AXIT\sass\component\_contact-us.scss133199895882765891 0
+43E:\TMS\AXIT\sass\component\_contact-us.scss133200286951542879 0
 40E:\TMS\AXIT\node_modules\detect-libc\lib133191466125101985 1
 46E:\TMS\AXIT\node_modules\htmlnano\package.json133191466161111991 0
 47E:\TMS\AXIT\node_modules\@parcel\runtime-js\src133191466157232000 1
@@ -136,19 +136,19 @@
 84E:\TMS\AXIT\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_drop.c133191466156302008 0
 44E:\TMS\AXIT\node_modules\lmdb\dist\index.cjs133191466174021992 0
 34E:\TMS\AXIT\node_modules\lmdb\dict133191466183721995 1
-53E:\TMS\AXIT\sass\component\_transitioning-effect.scss133200239730490655 0
+53E:\TMS\AXIT\sass\component\_transitioning-effect.scss133200657158018110 0
 67E:\TMS\AXIT\node_modules\htmlnano\lib\modules\removeOptionalTags.js133191466147332012 0
 48E:\TMS\AXIT\node_modules\micromatch\package.json133191466119252009 0
 59E:\TMS\AXIT\node_modules\css-select\lib\attributes.d.ts.map133191466138402008 0
 71E:\TMS\AXIT\node_modules\caniuse-lite\data\features\css-focus-within.js133191466184552001 0
 33E:\TMS\AXIT\sass\base\_forms.scss133199112185528655 0
 78E:\TMS\AXIT\node_modules\@swc\helpers\src\_class_static_private_method_get.mjs133191466181841990 0
-37E:\TMS\AXIT\sass\layouts\_header.scss133197599990971097 0
+37E:\TMS\AXIT\sass\layouts\_header.scss133200288634838809 0
 39E:\TMS\AXIT\node_modules\semver\LICENSE133191466116352001 0
 39E:\TMS\AXIT\node_modules\domhandler\lib133191466128551980 1
 55E:\TMS\AXIT\node_modules\xxhash-wasm\umd\xxhash-wasm.js133191466120971994 0
 56E:\TMS\AXIT\node_modules\caniuse-lite\data\regions\PH.js133191466193831990 0
-38E:\TMS\AXIT\sass\layouts\_wrapper.scss133200203532658107 0
+38E:\TMS\AXIT\sass\layouts\_wrapper.scss133200634659391435 0
 75E:\TMS\AXIT\node_modules\@parcel\runtime-js\lib\helpers\worker\js-loader.js133191466155101982 0
 46E:\TMS\AXIT\node_modules\csso\lib\clean\Raw.js133191466157831982 0
 54E:\TMS\AXIT\node_modules\source-map\dist\source-map.js133191466145281983 0
@@ -157,10 +157,10 @@
 62E:\TMS\AXIT\node_modules\@parcel\core\src\public\Dependency.js133191466178642011 0
 38E:\TMS\AXIT\node_modules\tslib\modules133191466125041987 1
 30E:\TMS\AXIT\node_modules\acorn133191466129772008 1
-40E:\TMS\AXIT\sass\component\_awesome.scss133199896045184561 0
+40E:\TMS\AXIT\sass\component\_awesome.scss133200254936776296 0
 42E:\TMS\AXIT\node_modules\mdn-data\index.js133191466121492015 0
 33E:\TMS\AXIT\node_modules\anymatch133193156987745275 1
-42E:\TMS\AXIT\sass\component\_customers.scss133195794284380435 0
+42E:\TMS\AXIT\sass\component\_customers.scss133200659902557032 0
 49E:\TMS\AXIT\node_modules\supports-color\readme.md133191466122391989 0
 46E:\TMS\AXIT\node_modules\detect-libc\README.md133191466119331986 0
 62E:\TMS\AXIT\node_modules\source-map\dist\source-map.min.js.map133191466149942121 0
@@ -175,13 +175,13 @@
 42E:\TMS\AXIT\node_modules\@msgpackr-extract133193156995085994 1
 43E:\TMS\AXIT\sass\component\_navigation.scss133200201984537507 0
 59E:\TMS\AXIT\node_modules\css-what\lib\commonjs\stringify.js133191466126581975 0
-48E:\TMS\AXIT\sass\component\_pricing-options.scss133195819121192013 0
+48E:\TMS\AXIT\sass\component\_pricing-options.scss133200261536607652 0
 71E:\TMS\AXIT\node_modules\caniuse-lite\data\features\array-find-index.js133191466150112063 0
 45E:\TMS\AXIT\sass\component\_social-media.scss133200233930262463 0
 70E:\TMS\AXIT\node_modules\caniuse-lite\data\features\input-minlength.js133191466191222020 0
 56E:\TMS\AXIT\node_modules\caniuse-lite\data\regions\ET.js133191466189502018 0
 45E:\TMS\AXIT\node_modules\chalk\source\util.js133191466121331987 0
-47E:\TMS\AXIT\sass\component\_stylish-design.scss133195091490011980 0
+47E:\TMS\AXIT\sass\component\_stylish-design.scss133200283743456482 0
 112E:\TMS\AXIT\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-false-glob\b\index.js133191466159181991 0
 35E:\TMS\AXIT\node_modules\color-name133191466120521983 1
 56E:\TMS\AXIT\node_modules\caniuse-lite\data\regions\SY.js133191466195311991 0
@@ -198,7 +198,7 @@
 84E:\TMS\AXIT\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_dump.1133191466144592004 0
 49E:\TMS\AXIT\node_modules\v8-compile-cache\LICENSE133191466116412011 0
 43E:\TMS\AXIT\node_modules\yaml\dist\index.js133191466128771979 0
-41E:\TMS\AXIT\sass\component\_template.scss133200221559067255 0
+41E:\TMS\AXIT\sass\component\_template.scss133200653408387499 0
 61E:\TMS\AXIT\node_modules\@parcel\utils\test\sourcemap.test.js133191466176212010 0
 35E:\TMS\AXIT\sass\base\_buttons.scss133199114413602910 0
 70E:\TMS\AXIT\node_modules\caniuse-lite\data\features\text-decoration.js133191466195461993 0
@@ -211,7 +211,7 @@
 63E:\TMS\AXIT\node_modules\@parcel\package-manager\lib\types.d.ts133191466173621996 0
 49E:\TMS\AXIT\node_modules\@parcel\fs\src\NodeFS.js133191466157302053 0
 39E:\TMS\AXIT\node_modules\yaml\util.d.ts133191466167691995 0
-41E:\TMS\AXIT\sass\abstract\_constants.scss133199151241633399 0
+41E:\TMS\AXIT\sass\abstract\_constants.scss133200291895557451 0
 73E:\TMS\AXIT\node_modules\htmlnano\lib\modules\normalizeAttributeValues.js133191466144441997 0
 107E:\TMS\AXIT\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-alias-exclude\main.js133191466165291986 0
 70E:\TMS\AXIT\node_modules\caniuse-lite\data\features\async-functions.js133191466155991989 0
@@ -255,7 +255,7 @@
 41E:\TMS\AXIT\node_modules\term-size\vendor133191466122812026 1
 72E:\TMS\AXIT\node_modules\caniuse-lite\data\features\template-literals.js133191466195412000 0
 72E:\TMS\AXIT\node_modules\@swc\helpers\lib\_class_private_field_update.js133191466147862017 0
-33E:\TMS\AXIT\dist\AXIT.3464ddca.js133200236777892904 0
+33E:\TMS\AXIT\dist\AXIT.3464ddca.js133200646728987913 0
 42E:\TMS\AXIT\node_modules\lmdb\util\when.js133191466182412008 0
 34E:\TMS\AXIT\node_modules\@mischnic133191466091911992 1
 52E:\TMS\AXIT\node_modules\@jridgewell\sourcemap-codec133191466128461988 1
@@ -2010,7 +2010,7 @@
 42E:\TMS\AXIT\node_modules\commander\typings133191466128681996 1
 64E:\TMS\AXIT\node_modules\caniuse-lite\data\features\dragndrop.js133191466189132004 0
 67E:\TMS\AXIT\node_modules\@swc\helpers\src\_wrap_async_generator.mjs133191466185021994 0
-33E:\TMS\AXIT\dist\bg2.12da3e60.jpg133200236778192983 0
+33E:\TMS\AXIT\dist\bg2.12da3e60.jpg133200646729187856 0
 72E:\TMS\AXIT\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\midl.h133191466180582010 0
 55E:\TMS\AXIT\node_modules\htmlnano\lib\modules\custom.js133191466127981983 0
 74E:\TMS\AXIT\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\module.c133191466167802006 0
@@ -2955,7 +2955,7 @@
 72E:\TMS\AXIT\node_modules\@babel\helper-validator-identifier\lib\index.js133191466123041998 0
 58E:\TMS\AXIT\node_modules\caniuse-lite\data\features\av1.js133191466159671991 0
 75E:\TMS\AXIT\node_modules\caniuse-lite\data\features\background-clip-text.js133191466164032005 0
-34E:\TMS\AXIT\dist\logo.e4cbbe03.png133200236777512863 0
+34E:\TMS\AXIT\dist\logo.e4cbbe03.png133200646728797866 0
 74E:\TMS\AXIT\node_modules\caniuse-lite\data\features\background-img-opts.js133191466164362001 0
 84E:\TMS\AXIT\node_modules\caniuse-lite\data\features\background-repeat-round-space.js133191466164982006 0
 69E:\TMS\AXIT\node_modules\caniuse-lite\data\features\battery-status.js133191466165981982 0
@@ -3571,7 +3571,7 @@
 69E:\TMS\AXIT\node_modules\@swc\helpers\lib\_class_private_field_get.js133191466144431992 0
 70E:\TMS\AXIT\node_modules\@swc\helpers\lib\_class_private_field_init.js133191466144941985 0
 75E:\TMS\AXIT\node_modules\@swc\helpers\lib\_class_private_field_loose_key.js133191466146241997 0
-42E:\TMS\AXIT\dist\JaydonRosser.5cfc25df.png133200236777512863 0
+42E:\TMS\AXIT\dist\JaydonRosser.5cfc25df.png133200646728797866 0
 70E:\TMS\AXIT\node_modules\@swc\helpers\lib\_class_private_method_get.js133191466148612014 0
 71E:\TMS\AXIT\node_modules\@swc\helpers\lib\_class_private_method_init.js133191466148801978 0
 70E:\TMS\AXIT\node_modules\@swc\helpers\lib\_class_private_method_set.js133191466149652023 0
@@ -3860,7 +3860,7 @@
 74E:\TMS\AXIT\node_modules\@parcel\source-map\parcel_sourcemap_node\build.js133191466128002001 0
 74E:\TMS\AXIT\node_modules\@parcel\source-map\parcel_sourcemap_node\build.rs133191466175352014 0
 76E:\TMS\AXIT\node_modules\@parcel\source-map\parcel_sourcemap_node\Cargo.toml133191466175922003 0
-42E:\TMS\AXIT\dist\about_icon_3.400cdc43.svg133200236775382852 0
+42E:\TMS\AXIT\dist\about_icon_3.400cdc43.svg133200646729527850 0
 74E:\TMS\AXIT\node_modules\@parcel\source-map\parcel_sourcemap_node\index.js133191466128671991 0
 76E:\TMS\AXIT\node_modules\@parcel\source-map\parcel_sourcemap_node\src\lib.rs133191466175682023 0
 56E:\TMS\AXIT\node_modules\@parcel\core\lib\BundleGraph.js133191466174441986 0
@@ -3985,7 +3985,7 @@
 53E:\TMS\AXIT\node_modules\@parcel\optimizer-terser\lib133191466141122030 1
 57E:\TMS\AXIT\node_modules\@parcel\optimizer-terser\LICENSE133191466139842017 0
 51E:\TMS\AXIT\node_modules\@parcel\optimizer-svgo\lib133191466142072014 1
-35E:\TMS\AXIT\dist\index.3ca998d7.css133200238789884967 0
+35E:\TMS\AXIT\dist\index.3ca998d7.css133200659908756366 0
 55E:\TMS\AXIT\node_modules\@parcel\optimizer-svgo\LICENSE133191466140982110 0
 79E:\TMS\AXIT\node_modules\@parcel\optimizer-image\parcel-image.darwin-arm64.node133191466156882009 0
 83E:\TMS\AXIT\node_modules\@parcel\optimizer-image\parcel-image.linux-arm64-musl.node133191466181601997 0
@@ -4077,7 +4077,7 @@
 51E:\TMS\AXIT\node_modules\@parcel\hash\index.js.flow133191466122551994 0
 45E:\TMS\AXIT\node_modules\@parcel\hash\LICENSE133191466121141979 0
 65E:\TMS\AXIT\node_modules\@parcel\hash\parcel-hash.darwin-x64.node133191466153101998 0
-43E:\TMS\AXIT\dist\Rectangle 111.08cb361a.jpg133200236777762929 0
+43E:\TMS\AXIT\dist\Rectangle 111.08cb361a.jpg133200646728947875 0
 70E:\TMS\AXIT\node_modules\@parcel\hash\parcel-hash.linux-arm64-gnu.node133191466159732002 0
 69E:\TMS\AXIT\node_modules\@parcel\hash\parcel-hash.linux-x64-musl.node133191466170872036 0
 42E:\TMS\AXIT\node_modules\@parcel\graph\lib133191466144491988 1
@@ -4399,16 +4399,20 @@
 38E:\TMS\AXIT\node_modules\.bin\svgo.cmd133191466638500491 0
 38E:\TMS\AXIT\node_modules\.bin\svgo.ps1133191466638500491 0
 40E:\TMS\AXIT\node_modules\.bin\terser.cmd133191466638510502 0
-42E:\TMS\AXIT\dist\about_icon_1.1942d850.svg133200236775382852 0
-42E:\TMS\AXIT\dist\about_icon_2.95082e6e.svg133200236775372877 0
-37E:\TMS\AXIT\dist\AXIT.3464ddca.js.map133200236778052890 0
-32E:\TMS\AXIT\dist\bg.909ca922.jpg133200236778192983 0
+42E:\TMS\AXIT\dist\about_icon_1.1942d850.svg133200646729517852 0
+42E:\TMS\AXIT\dist\about_icon_2.95082e6e.svg133200646729517852 0
+37E:\TMS\AXIT\dist\AXIT.3464ddca.js.map133200646729108186 0
+32E:\TMS\AXIT\dist\bg.909ca922.jpg133200646729187856 0
+41E:\TMS\AXIT\dist\bg.909ca922.jpg.12440.3v133200255724246624 0
+41E:\TMS\AXIT\dist\bg.909ca922.jpg.14320.69133200255722076604 0
+42E:\TMS\AXIT\dist\bg2.12da3e60.jpg.12440.3x133200255724256637 0
+42E:\TMS\AXIT\dist\bg2.12da3e60.jpg.14320.6a133200255722076604 0
 41E:\TMS\AXIT\dist\bg2.12da3e60.jpg.4876.iu133195805431895216 0
-43E:\TMS\AXIT\dist\CooperDorwart.d6d07b59.png133200236777672880 0
-46E:\TMS\AXIT\dist\DavisRhielMadsen.04646ce9.png133200236777502889 0
-39E:\TMS\AXIT\dist\index.3ca998d7.css.map133200238789914976 0
+43E:\TMS\AXIT\dist\CooperDorwart.d6d07b59.png133200646728797866 0
+46E:\TMS\AXIT\dist\DavisRhielMadsen.04646ce9.png133200646728797866 0
+39E:\TMS\AXIT\dist\index.3ca998d7.css.map133200659908816233 0
 35E:\TMS\AXIT\dist\index.a998533d.css133193163079570391 0
-27E:\TMS\AXIT\dist\index.html133200236775382852 0
+27E:\TMS\AXIT\dist\index.html133200646729528944 0
 22E:\TMS\AXIT\assets\png133192401271066501 1
 39E:\TMS\AXIT\assets\svg\about_icon_1.svg133191453491328624 0
 39E:\TMS\AXIT\assets\svg\about_icon_2.svg133191453654124293 0

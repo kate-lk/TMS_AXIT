@@ -1,15 +1,14 @@
 .tool {
-    @extend %center;
-    text-align: center;
-    
+  @extend %center;
+  text-align: center;
 }
 
 .awesome__wrapper {
-    padding-bottom: 58px;
+  padding-bottom: 58px;
 }
 
 .awesome__layout-3-column {
-   @include media-mobile {
-        flex-direction: column;
-    } 
+  @include media-mobile {
+    flex-direction: column;
+  }
 }

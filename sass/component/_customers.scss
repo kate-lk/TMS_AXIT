@@ -4,10 +4,22 @@
   @include media-mobile {
     width: 100%;
   }
+  @include media-tablet {
+    width: 100%;
+  }
+}
+
+.customers__layout-3-column {
+  @include media-tablet {
+    justify-content: center;
+  }
 }
 
 .customer-mobile {
   @include media-mobile {
+    display: none;
+  }
+  @include media-tablet {
     display: none;
   }
 }
@@ -28,6 +40,9 @@
   @include media-mobile {
     width: 80%;
   }
+  @include media-tablet {
+    width: 90%;
+  }
 }
 
 .triangle {
@@ -42,6 +57,9 @@
   justify-content: space-between;
   width: 370px;
   @include media-mobile {
+    margin-left: 60px;
+  }
+  @include media-tablet {
     margin-left: 60px;
   }
 }
@@ -65,10 +83,22 @@
     justify-content: center;
     align-items: center;
   }
+  @include media-tablet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .circle {
   @include media-mobile {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #86878b;
+    border-radius: 100%;
+    margin: 25px;
+  }
+  @include media-tablet {
     width: 10px;
     height: 10px;
     border: 1px solid #86878b;

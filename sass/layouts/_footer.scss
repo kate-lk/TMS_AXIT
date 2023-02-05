@@ -1,12 +1,10 @@
 .footer__wrapper {
-    @extend %center;
-    padding-bottom: 27px;
+  @extend %center;
+  padding-bottom: 27px;
 }
 
 .footer__text {
-    @extend %font-prim;
-    @include font($size: 1.8rem, $height: 2.1rem);
-    color: rgba(255, 255, 255, 0.5);
+  @extend %font-prim;
+  @include font($size: 1.8rem, $height: 2.1rem);
+  color: rgba(255, 255, 255, 0.5);
 }
-
-

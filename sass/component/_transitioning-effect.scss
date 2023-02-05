@@ -32,11 +32,25 @@
       margin-left: 114px;
     }
   }
+  @include media-tablet {
+    padding-left: 0;
+    flex-direction: column-reverse;
+    text-align: center;
+    justify-content: center;
+    &:before {
+      width: 71.2%;
+      margin-left: 205px;
+    }
+  }
 }
 
 .transitioning-effect__img {
+  width: 50%;
   @include media-mobile {
     display: none;
+  }
+  @include media-tablet {
+    margin: 20px 0;
   }
 }
 
@@ -53,6 +67,9 @@
 
 .transitioning-effect__button {
   @include media-mobile {
+    margin-bottom: 30px;
+  }
+  @include media-tablet {
     margin-bottom: 30px;
   }
 }

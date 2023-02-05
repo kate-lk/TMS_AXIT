@@ -7,6 +7,9 @@
     padding-top: 84px;
     padding-bottom: 50px;
   }
+  @include media-tablet {
+    padding-top: 130px;
+  }
 }
 
 .template__title {
@@ -16,7 +19,6 @@
     margin: 0 0 45px;
   }
 }
-
 
 .template__text {
   max-width: 270px;
@@ -39,6 +41,9 @@
   @include media-mobile {
     padding-bottom: 121px;
   }
+  @include media-tablet {
+    padding-bottom: 121px;
+  }
 }
 
 .template__form__title {
@@ -50,6 +55,13 @@
 }
 
 .template__content {
+  @include media-tablet {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 56px;
+  }
   @include media-mobile {
     text-align: center;
     display: flex;
@@ -60,7 +72,10 @@
 }
 
 .template__layout-2-column {
-    @include media-mobile {
-        flex-direction: column;
-      }
+  @include media-tablet {
+    flex-direction: column;
+  }
+  @include media-mobile {
+    flex-direction: column;
+  }
 }

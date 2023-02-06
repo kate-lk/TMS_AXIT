@@ -410,6 +410,7 @@ template, [hidden] {
 
 .navigation {
   color: #fff;
+  flex-wrap: wrap;
   font-size: 1.4rem;
   line-height: 1.9rem;
   display: flex;
@@ -604,17 +605,17 @@ template, [hidden] {
   max-width: 470px;
 }
 
-@media (max-width: 414px) {
-  .ico_active {
-    width: 26px !important;
-    height: 26px !important;
-  }
-}
-
 @media (max-width: 768px) {
   .ico_active {
     width: 60px !important;
     height: 60px !important;
+  }
+}
+
+@media (max-width: 414px) {
+  .ico_active {
+    width: 26px !important;
+    height: 26px !important;
   }
 }
 
@@ -1001,6 +1002,7 @@ template, [hidden] {
 .transitioning-effect__wrapper {
   padding-top: 98px;
   padding-bottom: 51px;
+  position: relative;
 }
 
 @media (max-width: 414px) {
@@ -1011,33 +1013,18 @@ template, [hidden] {
 }
 
 .transitioning-effect-tab {
-  border-bottom: 1px solid #c6cbcd;
-  border-left: 1px solid #c6cbcd;
-  border-right: 1px solid #c6cbcd;
+  border: 1px solid #c6cbcd;
   align-items: center;
   padding-left: 100px;
   position: relative;
-}
-
-.transitioning-effect-tab:before {
-  content: "";
-  width: 82.7%;
-  border-top: 1px solid #c6cbcd;
-  margin-left: 103px;
-  position: absolute;
-  bottom: 100%;
 }
 
 @media (max-width: 414px) {
   .transitioning-effect-tab {
     text-align: center;
     justify-content: center;
+    margin-top: 43px;
     padding-left: 0;
-  }
-
-  .transitioning-effect-tab:before {
-    width: 67.2%;
-    margin-left: 114px;
   }
 }
 
@@ -1047,11 +1034,6 @@ template, [hidden] {
     flex-direction: column-reverse;
     justify-content: center;
     padding-left: 0;
-  }
-
-  .transitioning-effect-tab:before {
-    width: 71.2%;
-    margin-left: 205px;
   }
 }
 
@@ -1098,18 +1080,37 @@ template, [hidden] {
 }
 
 .tabs {
+  width: 60%;
+  z-index: 1;
   display: flex;
+  position: absolute;
+  top: 39px;
+}
+
+@media (max-width: 768px) {
+  .tabs {
+    width: 90%;
+  }
+}
+
+@media (max-width: 414px) {
+  .tabs {
+    text-align: center;
+    width: 90%;
+    justify-content: start;
+    padding-left: 0;
+  }
 }
 
 .tab {
-  width: 203px;
+  width: 30%;
   text-align: center;
   border-radius: 5px 5px 0 0;
 }
 
 .tab:first-child {
   border: 1px solid #c6cbcd;
-  border-bottom: none;
+  border-bottom: 3px solid #fff;
 }
 
 .tab__text {

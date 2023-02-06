@@ -1,6 +1,7 @@
 .transitioning-effect__wrapper {
   padding-bottom: 51px;
   padding-top: 98px;
+  position: relative;
   @include media-mobile {
     padding-top: 41px;
     padding-bottom: 0;
@@ -10,37 +11,19 @@
 .transitioning-effect-tab {
   align-items: center;
   padding-left: 100px;
-  border-right: 1px solid $color-border;
-  border-left: 1px solid $color-border;
-  border-bottom: 1px solid $color-border;
+  border: 1px solid $color-border;
   position: relative;
-  &:before {
-    content: "";
-    position: absolute;
-    bottom: 100%;
-    width: 82.7%;
-    border-top: 1px solid $color-border;
-    margin-left: 103px;
-  }
-
   @include media-mobile {
+    margin-top: 43px;
     padding-left: 0;
     text-align: center;
     justify-content: center;
-    &:before {
-      width: 67.2%;
-      margin-left: 114px;
-    }
   }
   @include media-tablet {
     padding-left: 0;
     flex-direction: column-reverse;
     text-align: center;
     justify-content: center;
-    &:before {
-      width: 71.2%;
-      margin-left: 205px;
-    }
   }
 }
 
@@ -76,15 +59,28 @@
 
 .tabs {
   display: flex;
+  position: absolute;
+  width: 60%;
+  top: 39px;
+  z-index: 1;
+  @include media-tablet {
+    width: 90%;
+  }
+  @include media-mobile {
+    padding-left: 0;
+    text-align: center;
+    justify-content: start;
+    width: 90%;
+  }
 }
 
 .tab {
   border-radius: 5px 5px 0px 0px;
-  width: 203px;
+  width: 30%;
   text-align: center;
   &:first-child {
     border: 1px solid $color-border;
-    border-bottom: none;
+    border-bottom: 3px solid $color-light;
   }
 }
 

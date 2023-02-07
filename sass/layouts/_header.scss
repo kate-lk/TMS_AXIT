@@ -6,7 +6,16 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
+  @include media-tablet {
+    padding: 19px 35px;
+  }
   @include media-mobile {
     padding: 19px 35px;
   }
+}
+
+
+.logo {
+padding: 15px 0;
 }

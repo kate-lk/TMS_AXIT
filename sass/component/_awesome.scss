@@ -1,6 +1,9 @@
 .tool {
   @extend %center;
   text-align: center;
+  @include media-tablet {
+    width: 100%;
+  }
 }
 
 .awesome__wrapper {
@@ -8,7 +11,16 @@
 }
 
 .awesome__layout-3-column {
+  @include media-tablet {
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+  }
   @include media-mobile {
     flex-direction: column;
   }
+}
+
+.tool__title {
+  margin: 45px 0;
 }

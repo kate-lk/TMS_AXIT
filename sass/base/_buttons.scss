@@ -1,5 +1,8 @@
 .button {
-  padding: 20px 91px;
+  z-index: 1;
+  padding: 20px 0;
+  width: 50%;
+  max-width: 320px;
   @extend %font-add;
   font-style: normal;
   font-weight: 600;
@@ -36,10 +39,4 @@
   }
 }
 
-.template__button {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  border-radius: 0 0 10px 10px;
-}
+

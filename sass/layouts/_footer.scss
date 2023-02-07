@@ -1,10 +1,30 @@
 .footer__wrapper {
-  @extend %center;
-  padding-bottom: 27px;
+  padding: 27px 0;
+  text-align: center;
+  .social-media__list {
+    padding: 0 14%;
+  }
 }
 
 .footer__text {
+  text-align: center;
   @extend %font-prim;
   @include font($size: 1.8rem, $height: 2.1rem);
   color: rgba(255, 255, 255, 0.5);
+  padding-bottom: 27px;
+}
+
+.ico_active-footer {
+  width: 100%;
+  max-width: 50px;
+
+  @include media-tablet {
+    width: 60px !important;
+    height: 60px !important;
+  }
+
+  @include media-mobile {
+    width: 26px !important;
+    height: 26px !important;
+  }
 }

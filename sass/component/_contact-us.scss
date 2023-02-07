@@ -1,5 +1,9 @@
 .contact-us__wrapper {
-  padding-bottom: 50px;
+  padding: 50px 0;
+  @include media-tablet {
+    padding-top: 0;
+    padding-bottom: 70px;
+  }
 }
 
 .contact-us__line {

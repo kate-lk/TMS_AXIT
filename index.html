@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;500&display=swap"
       rel="stylesheet"
     />
+    <link rel="icon" href="assets/favicon.ico" />
   </head>
   <body>
     <header>
@@ -18,32 +19,36 @@
             <img src="assets/png/logo.png" alt="logo" />
           </a>
           <nav class="header__navigation">
-            <ul class="navigation">
-              <li class="navigation__link">Features</li>
-              <li class="navigation__link">About</li>
-              <li class="navigation__link">Pricing</li>
-              <li class="navigation__link">Reviews</li>
-              <li class="navigation__link">Contact</li>
-            </ul>
+            <div class="navigation">
+              <a class="navigation__link">Features</a>
+              <a class="navigation__link">About</a>
+              <a class="navigation__link">Pricing</a>
+              <a class="navigation__link">Reviews</a>
+              <a class="navigation__link">Contact</a>
+            </div>
           </nav>
-          <div class="header__logo-line">
+          <!-- <div class="header__logo-line">
             <span class="hamburger">
               <span class="hamburger__line"></span>
             </span>
-          </div>
+          </div> -->
         </div>
       </div>
     </header>
+
     <section class="template">
       <div class="wrapper-bg wrapper-bg_img">
+        <div class="shadow"></div>
         <div class="wrapper template__wrapper">
           <div class="layout-2-column template__layout-2-column">
             <div class="template__content">
-              <img
-                src="assets/png/logo.png"
+              <div class="template__logo">
+                <img
+                src="assets/png/logo2.png"
                 alt="logo"
-                class="template__logo"
               />
+              </div>
+              
               <h1 class="template__title">
                 MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES
               </h1>
@@ -54,22 +59,29 @@
               <button class="button button_bordered">Download</button>
             </div>
             <div class="template__form">
-              <h3 class="template__form__title">
+              
+              <form action method="POST">
+                <h3 class="template__form__title">
                 Try Your <span>FREE</span> Trial Today
               </h3>
-              <form action method="POST">
-                <input type="text" name="name" placeholder="Name" />
+<div class="form-group">
+              <input type="text" name="name" placeholder="Name" />
                 <input type="email" name="email" placeholder="Email" />
                 <input type="password" name="password" placeholder="Password" />
-              </form>
-              <button class="button template__button button_colored">
+</div>
+                
+
+                <button class="button template__button button_colored">
                 Get Started
               </button>
+              </form>
+              
             </div>
           </div>
         </div>
       </div>
     </section>
+
     <section class="social-media">
       <div class="wrapper-bg wrapper-bg_prim-light">
         <div class="wrapper social-media__wrapper">
@@ -82,8 +94,8 @@
               </p>
             </div>
             <div class="social-media__links">
-              <ul class="social-media__list">
-                <li>
+              <div class="social-media__list">
+                <div class="social-media__link">
                   <a href="#">
                     <svg
                       class="ico_active"
@@ -99,8 +111,8 @@
                       />
                     </svg>
                   </a>
-                </li>
-                <li>
+                </div>
+                <div class="social-media__link">
                   <a href="#">
                     <svg
                       class="ico_active"
@@ -116,8 +128,8 @@
                       />
                     </svg>
                   </a>
-                </li>
-                <li>
+                </div>
+                <div class="social-media__link">
                   <a href="#">
                     <svg
                       class="ico_active"
@@ -133,8 +145,8 @@
                       />
                     </svg>
                   </a>
-                </li>
-                <li>
+                </div>
+                <div class="social-media__link">
                   <a href="#"
                     ><svg
                       class="ico_active"
@@ -150,8 +162,8 @@
                       />
                     </svg>
                   </a>
-                </li>
-                <li>
+                </div>
+                <div class="social-media__link">
                   <a href="#"
                     ><svg
                       class="ico_active"
@@ -171,8 +183,8 @@
                       />
                     </svg>
                   </a>
-                </li>
-                <li>
+                </div>
+                <div class="social-media__link">
                   <a href="#"
                     ><svg
                       class="ico_active"
@@ -190,8 +202,8 @@
                       />
                     </svg>
                   </a>
-                </li>
-                <li>
+                </div>
+                <div class="social-media__link">
                   <a href="#"
                     ><svg
                       class="ico_active"
@@ -211,8 +223,8 @@
                       />
                     </svg>
                   </a>
-                </li>
-              </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -220,7 +232,10 @@
     </section>
     <section class="transitioning-effect">
       <div class="wrapper transitioning-effect__wrapper">
-        <div class="tabs">
+        
+
+        <div class="transitioning-effect-tab layout-2-column">
+          <div class="tabs">
           <div class="tab">
             <p class="tab__text">tab 1</p>
           </div>
@@ -231,31 +246,31 @@
             <p class="tab__text">tab 3</p>
           </div>
         </div>
-
-        <div class="transitioning-effect-tab layout-2-column">
           <div class="transitioning-effect__content">
+
             <h3 class="transitioning-effect__title">
               Tabs with soft transitioning effect.
             </h3>
             <p class="transitioning-effect__text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-              euismod bibendum laoreet. Proin gravida dolor sit amet lacus
-              accumsan et viverra justo commodo. Proin sodales pulvinar tempor.
+              euismod <br> bibendum laoreet. Proin gravida dolor sit amet lacus
+              accumsan et viverra <br> justo commodo. Proin sodales pulvinar tempor.
               Cum sociis natoque penatibus et magnis dis parturient montes.
             </p>
             <p class="transitioning-effect__text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-              euismod bibendum laoreet.
+              euismod <br> bibendum laoreet.
             </p>
             <button class="button button_colored transitioning-effect__button">
               Download
             </button>
           </div>
-          <img
+            <img
             src="assets/img/Rectangle 111.jpg"
             alt="transitioning-effect"
             class="transitioning-effect__img"
           />
+                    
         </div>
       </div>
     </section>
@@ -264,7 +279,7 @@
       <div class="wrapper awesome__wrapper">
         <div class="section__content">
           <h2 class="section__title">WHY THIS IS AWESOME</h2>
-          <div class="line line_colored"></div>
+          <!-- <div class="line line_colored"></div> -->
           <p class="section__text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
@@ -313,13 +328,13 @@
         <div class="wrapper pricing-options__wrapper">
           <div class="section__content">
             <h2 class="section__title">Pricing options</h2>
-            <div class="line line_colored"></div>
+            <!-- <div class="line line_colored"></div> -->
             <p class="section__text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
           </div>
 
-          <div class="layout-3-column awesome__layout-3-column">
+          <div class="layout-3-column awesome__layout-3-column pricing-options__content">
             <div class="rate">
               <div class="rate__title"><h3>Basic</h3></div>
               <div class="rate__price"><p>$10</p></div>
@@ -361,13 +376,13 @@
       <div class="wrapper customers__wrapper">
         <div class="section__content">
           <h2 class="section__title">what our customers are saying</h2>
-          <div class="line line_colored"></div>
+          <!-- <div class="line line_colored"></div> -->
           <p class="section__text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
         </div>
         <div class="layout-3-column customers__layout-3-column">
-          <div class="customer customer-mobile">
+          <div class="customer">
             <div class="customer__review">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -409,7 +424,7 @@
               </div>
             </div>
           </div>
-          <div class="customer customer-mobile">
+          <div class="customer">
             <div class="customer__review">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -433,17 +448,18 @@
         </div>
         <div class="customers__slider">
           <div class="circle"></div>
-          <div class="circle circle_colored"></div>
+          <div class="circle"></div>
           <div class="circle"></div>
         </div>
       </div>
     </section>
     <section class="stylish-design">
       <div class="wrapper-bg wrapper-bg_img-small">
+        <div class="shadow"></div>
         <div class="wrapper stylish-design__wrapper">
           <div class="section__content">
-            <h2 class="section__title_light">STYLISH AXURE DESIGN</h2>
-            <div class="line"></div>
+            <h2 class="stylish-design__title">STYLISH AXURE DESIGN</h2>
+            <!-- <div class="line"></div> -->
             <p class="section__text_light stylish-design__text">
               Use the sections you need, remove the ones you don't. Create
               gorgeous prototypes faster than ever!
@@ -458,7 +474,7 @@
       <div class="wrapper contact-us__wrapper">
         <div class="section__content">
           <h2 class="section__title">contact us</h2>
-          <div class="line line_colored"></div>
+          <!-- <div class="line line_colored"></div> -->
           <p class="section__text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
@@ -502,12 +518,11 @@
     <footer>
       <div class="wrapper-bg wrapper-bg_dark">
         <div class="wrapper footer__wrapper">
-          <div class="social-media__links">
-            <ul class="social-media__list">
-              <li>
+            <div class="social-media__list">
+              <div>
                 <a href="#">
                   <svg
-                    class="ico_active"
+                    class="ico_active-footer"
                     width="70"
                     height="70"
                     viewBox="0 0 70 70"
@@ -520,11 +535,11 @@
                     />
                   </svg>
                 </a>
-              </li>
-              <li>
+              </div>
+              <div>
                 <a href="#">
                   <svg
-                    class="ico_active"
+                    class="ico_active-footer"
                     width="70"
                     height="70"
                     viewBox="0 0 70 70"
@@ -537,11 +552,11 @@
                     />
                   </svg>
                 </a>
-              </li>
-              <li>
+              </div>
+              <div>
                 <a href="#">
                   <svg
-                    class="ico_active"
+                    class="ico_active-footer"
                     width="70"
                     height="70"
                     viewBox="0 0 70 70"
@@ -554,11 +569,11 @@
                     />
                   </svg>
                 </a>
-              </li>
-              <li>
+              </div>
+              <div>
                 <a href="#"
                   ><svg
-                    class="ico_active"
+                    class="ico_active-footer"
                     width="60"
                     height="60"
                     viewBox="0 0 60 60"
@@ -571,11 +586,11 @@
                     />
                   </svg>
                 </a>
-              </li>
-              <li>
+              </div>
+              <div>
                 <a href="#"
                   ><svg
-                    class="ico_active"
+                    class="ico_active-footer"
                     width="70"
                     height="70"
                     viewBox="0 0 70 70"
@@ -592,11 +607,11 @@
                     />
                   </svg>
                 </a>
-              </li>
-              <li>
+              </div>
+              <div>
                 <a href="#"
                   ><svg
-                    class="ico_active"
+                    class="ico_active-footer"
                     width="70"
                     height="70"
                     viewBox="0 0 70 70"
@@ -611,11 +626,11 @@
                     />
                   </svg>
                 </a>
-              </li>
-              <li>
+              </div>
+              <div>
                 <a href="#"
                   ><svg
-                    class="ico_active"
+                    class="ico_active-footer"
                     width="70"
                     height="70"
                     viewBox="0 0 70 70"
@@ -632,8 +647,8 @@
                     />
                   </svg>
                 </a>
-              </li>
-            </ul>
+              </div>
+            </div>
           </div>
           <address class="footer__text">© 2015 Axure Themes</address>
         </div>

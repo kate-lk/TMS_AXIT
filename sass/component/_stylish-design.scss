@@ -1,10 +1,34 @@
 .stylish-design__wrapper {
   @extend %center;
   padding: 50px 0;
+  z-index: 1;
+  @include media-tablet {
+    padding-top: 0;
+    padding-bottom: 58px;
+  }
+}
+
+.stylish-design__title {
+  margin-top: 70px;
+  text-transform: uppercase;
+  color: $color-light;
+  &::after {
+    content: "";
+    display: block;
+    width: 170px;
+    height: 1px;
+    background-color: $color-light;
+    margin: 0 auto;
+    margin-top: 54px;
+    z-index: 1;
+  }
+  @include media-mobile {
+    margin: 55px 0;
+  }
 }
 
 .stylish-design__text {
-  margin-bottom: 73px;
+  margin: 40px 0 73px 0;
   @include media-mobile {
     text-align: center;
     max-width: 288px;
